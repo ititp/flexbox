@@ -1,0 +1,31 @@
+/* flexbox vertical*/
+body {
+
+}
+
+
+/* flexbox  */
+body > main {
+}
+
+/* flexbox avec taille relative */
+body > main > section {
+
+}
+
+/* flexbox avec taille relative fixes */
+body > main > section > .content {
+}
+
+/* dimensions */
+.card {
+
+}
+
+/* rotation */
+.card.flip{
+}
+
+/* face arrière */
+.card > .back {
+}
