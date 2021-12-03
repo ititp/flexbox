@@ -76,6 +76,7 @@ body > main > aside > .card {
     margin-bottom: 20px;
     margin-right: 20px;
     transform-style: preserve-3d;
+    transition: all .5s ease;
 }
 
 .card.view {
