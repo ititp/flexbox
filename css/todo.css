@@ -1,31 +1,49 @@
-/* flexbox vertical*/
+/*
+* Le body encapsule le header en haut ansi que la zone principale.
+* A noter que la hauteur du header est déjà fixée à 60px.
+*/
 body {
-
 }
 
-
-/* flexbox  */
+/*
+ * Encapsule la section de jeux ainsi que le menu de droite.
+ * Le main doit occuper tout l'espace disponible sous le header.
+*/
 body > main {
 }
 
-/* flexbox avec taille relative */
+/*
+* Encapsule la zone de jeux ainsi que le menu du bas.
+* Elle doit être 3 fois plus grande que le menu de fin de partie à droite.
+* 
+*/
 body > main > section {
-
 }
 
-/* flexbox avec taille relative fixes */
+/**
+ * Contient les cartes du jeu.
+ * Doit occuper un maximum de l'espace disponible.
+ * Les cartes (.card) doivent être contenus à l'intérieur et retourner à la ligne si plus d'espace
+ */
 body > main > section > .content {
 }
 
-/* dimensions */
+/*
+* Face avant de la carte contenant le numéro.
+* Les cartes sont les divs avec lesquels on intéragi.
+* La carte doit avoir une taille fixe
+*/
 .card {
-
 }
 
-/* rotation */
-.card.flip{
+/*
+* classe utilisée pour retourner la carte
+*/
+.card.flip {
 }
 
-/* face arrière */
+/*
+ * Face arrière de la carte, quand elle est cachée.
+*/
 .card > .back {
 }
